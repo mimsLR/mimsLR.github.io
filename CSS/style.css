@@ -1,0 +1,132 @@
+/* nav bar */
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: rgb(199, 197, 197);
+}
+
+/* change color of active link */
+.navbar-nav .nav-link.active {
+    color: rgb(199, 197, 197);
+}
+
+/* change color of links when hover */
+.navbar-nav .nav-link:hover, .navbar-brand:hover {
+    color: white;
+}
+
+/* change color of navbar hamburger icon */
+.navbar-toggler{
+    color:gray;
+}
+
+/* **************************************************************** */
+
+/* Home page */
+main{
+    padding-top: 50px;
+}
+
+/* image style */
+#grad_pic{
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    float: right;
+}
+
+/* GitHub logo picture */
+#GitHub_pic{
+    width: 40px;
+    height: 40px;
+    /* padding-right: 5px; */
+}
+
+/* GitHub picture when hover */
+#GitHub_pic:hover{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#linkedIn_pic{
+    width: 40px;
+    height: 40px;
+    /* border-radius: 10px; */
+}
+
+#linkedIn_pic:hover{
+    background: #fff;
+    /* border-radius: 20px; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#insta_logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+}
+
+#insta_logo:hover{
+    background: #fff;
+    /* border-radius: 20px; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* **************************************************************** */
+
+/* about page */
+#aboutPageContent{
+    padding-top: 100px;
+}
+
+/* #aboutPageContent2{
+    background: red;
+} */
+
+#about_me{
+    text-align: center;
+}
+
+#aboutPageContent2{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#resume_pic{
+    width: 150px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* #resume_container {
+
+    background-color: aqua;
+  } */
+
+#resume_header{
+    text-align: center;
+    padding-bottom: 20px;
+    border: black;
+}
+
+#download_button{
+    color: black;
+}
+
+#download_button:hover{
+    color:#fff;
+}
+
+/* #test{
+    background: red;
+} */
+
+#button_container{
+    padding-top: 20px;
+}
+

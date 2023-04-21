@@ -1,1 +1,163 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <title>Logan's Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- Font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- My personal CSS stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Animate.css CDN -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Logan</a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>  -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- Home page content -->
+        <div class="container" id="homePageContent">
+            <div class="row">
+                <div class="col-6" id="homePageContent2">
+                    <img src="images/grad_picv2.jpg" class="img-fluid" alt="Logan" id="grad_pic"> 
+                </div>
+                <!-- <div class="col-sm">
+                                    
+                </div> -->
+                <div class="col-6" id="homePageContent3">
+                    <h1>Logan Mims - IT Specialist</h1>
+                    <p id="brief_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis ut. Non enim praesent elementum facilisis leo vel fringilla est.</p>
+                    <a href="https://github.com/mimsLR"><img src="images/github-mark.png" alt="GitHub" class="img-fluid" id="GitHub_pic"></a>
+                    <a href="https://www.linkedin.com/"><img src="images/linkedIn_logo.png" alt="LinkedIn" class="img-fluid" id="linkedIn_pic"></a>
+                    <a href="https://instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="Instagram" class="img-fluid" id="insta_logo"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About page content -->
+        <div class="container" id="aboutPageContent">
+            <div class="row">
+                <div class="col-6" id="aboutPageContent2">
+                     <h2 id="about_me">About me</h2>
+                     <p>Sit amet luctus venenatis lectus magna fringilla urna porttitor. Dictumst vestibulum rhoncus est pellentesque elit. Amet commodo nulla facilisi nullam vehicula ipsum. Tellus pellentesque eu tincidunt tortor aliquam. Aliquam id diam maecenas ultricies. Velit dignissim sodales ut eu. Viverra maecenas accumsan lacus vel facilisis. Elementum nibh tellus molestie nunc non blandit. Convallis posuere morbi leo urna molestie at elementum eu. Auctor augue mauris augue neque gravida in fermentum et. In metus vulputate eu scelerisque felis imperdiet proin fermentum leo. Neque sodales ut etiam sit. Bibendum neque egestas congue quisque egestas. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit. Augue neque gravida in fermentum et sollicitudin. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Sed vulputate mi sit amet. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Gravida in fermentum et sollicitudin ac orci phasellus egestas.</p>
+                </div>
+                <div class="col-3" id="test">
+
+                </div>
+                <div class="col-3" id="resume_container">
+                    <h3 id="resume_header">Resume</h3>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/resume.png" class="img-fluid" alt="Resume" id="resume_pic">
+                    </div>
+                    <div class="d-flex justify-content-center" id="button_container">
+                        <button class="btn btn-outline-dark" type="button" id="download_button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                            </svg>  
+                    </div>
+                </div>
+                <!-- <div class="col-sm">
+                     
+                </div> -->
+            </div>
+            <!-- <div class="row">
+                <div class="col-6"></div>
+                <div class="col-3"></div>
+                <div class="col-3">
+                    <button class="btn btn-outline-danger" type="button" id="download_button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                          </svg>
+                    </button>
+                </div>
+
+            </div> -->
+        </div>
+
+        <!-- skills page content -->
+        <div class="container" id="skillsPageContent">
+            <div class="row">
+                <div class="col-sm">
+                     
+                </div>
+                <div class="col-sm">
+                     
+                </div>
+                <div class="col-sm">
+                     
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio page content -->
+        <div class="container" id="portfolioPageContent">
+            <div class="row">
+                <div class="col-sm">
+                     
+                </div>
+                <div class="col-sm">
+                     
+                </div>
+                <div class="col-sm">
+                     
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+
+
+
+
+
+
+
+<footer>
+
+</footer>
+
+</html>
