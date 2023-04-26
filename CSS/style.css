@@ -20,11 +20,15 @@
     color:gray;
 }
 
+/* #homePageContent3{
+    background: red;
+} */
+
 /* **************************************************************** */
 
 /* Home page */
 main{
-    padding-top: 50px;
+    margin-top: 100px;
 }
 
 /* image style */
@@ -34,13 +38,17 @@ main{
     background: #fff;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    float: right;
+}
+
+#social_links{
+    padding-top:10px;
 }
 
 /* GitHub logo picture */
 #GitHub_pic{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     /* padding-right: 5px; */
 }
 
@@ -54,6 +62,7 @@ main{
 #linkedIn_pic{
     width: 40px;
     height: 40px;
+    margin-right: 10px;
     /* border-radius: 10px; */
 }
 
@@ -78,8 +87,13 @@ main{
 /* **************************************************************** */
 
 /* about page */
+
+.hr-blurry{
+    margin-top: 50px;
+}
+
 #aboutPageContent{
-    padding-top: 100px;
+    margin-top: 50px;
 }
 
 /* #aboutPageContent2{
@@ -91,9 +105,10 @@ main{
 }
 
 #aboutPageContent2{
-    background: #fff;
+    /* background: #fff;
     border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
+    /* background-color: aqua; */
 }
 
 #resume_pic{
@@ -105,8 +120,26 @@ main{
 
 /* #resume_container {
 
-    background-color: aqua;
+    background-color: red;
   } */
+
+/* resume picture pulse */
+
+.animate__pulse {
+    animation: pulse 3s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 
 #resume_header{
     text-align: center;
@@ -128,5 +161,13 @@ main{
 
 #button_container{
     padding-top: 20px;
+}
+
+/* **************************************************************** */
+
+/* skills page */
+
+#skillsPageContent{
+    margin-top: 50px;
 }
 
