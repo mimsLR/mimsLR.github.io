@@ -89,7 +89,7 @@ main{
 /* about page */
 
 .hr-blurry{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 #aboutPageContent{
@@ -171,3 +171,85 @@ main{
     margin-top: 50px;
 }
 
+#chart{
+    /* width:800px; */
+    /* background: red; */
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+#chartjs{
+    padding-bottom: 15px;
+}
+
+#test1{
+    /* background-color: aqua; */
+}
+
+h4{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* #skillsPageContent{
+    background: red;
+} */
+
+/* **************************************************************** */
+
+/* Portfolio page */
+
+#portfolioPageContent{
+    margin-top: 50px;
+}
+
+h5{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* work samples */
+
+#portfolio_1{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width:250px;
+    height: 275px;
+    margin-right: 25px;
+    
+}
+
+#portfolio_2{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width:250px;
+    height: 275px;
+    margin-right: 25px;
+    
+}
+
+#portfolio_3{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width:250px;
+    height: 275px;
+    margin-right: 25px;
+    
+}
+
+#portfolio_4{
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width:250px;
+    height: 275px;
+    margin-right: 25px;
+    
+}
+
+/* set margin at specified breakpoint */
+
+@media (max-width: 1200px) {
+    .row > div[class^="col-"] {
+      margin-bottom: 25px;
+    }
+  }
