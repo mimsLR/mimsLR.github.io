@@ -130,11 +130,6 @@ main{
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-/* #resume_container {
-
-    background-color: red;
-  } */
-
 /* resume picture pulse */
 
 .animate__pulse {
@@ -167,10 +162,6 @@ main{
     color:#fff;
 }
 
-/* #test{
-    background: red;
-} */
-
 #button_container{
     padding-top: 20px;
 }
@@ -184,8 +175,6 @@ main{
 }
 
 #chart{
-    /* width:800px; */
-    /* background: red; */
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
@@ -202,10 +191,6 @@ h4{
     text-align: center;
     padding-bottom: 20px;
 }
-
-/* #skillsPageContent{
-    background: red;
-} */
 
 /* **************************************************************** */
 
@@ -225,21 +210,41 @@ h5{
 #portfolio_1{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:250px;
-    height: 275px;   
+    width:260px;
+    height: 350px;  
 }
 
-#pvud_pic{
+#HTML_email_pic{
     border-radius: 15px;
-    height: 230px;
-    width: 200px;
+    margin-top: 10px;
+    /* height: 150px; */
+}
+
+#portfolio1_text{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* github picture inside portfolio_1 */
+
+#GitHub_port1_pic{
+    margin-top: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+/* html_view_button */
+
+#html_view_button{
+    margin-top: 35px;
+    margin-right: 33px;
 }
 
 #portfolio_2{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:250px;
-    height: 275px;
+    width:260px;
+    height: 350px;
     margin-left: 25px;
     
 }
@@ -247,8 +252,8 @@ h5{
 #portfolio_3{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:250px;
-    height: 275px;
+    width:260px;
+    height: 350px;
     margin-left: 25px;
     
 }
@@ -256,8 +261,8 @@ h5{
 #portfolio_4{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:250px;
-    height: 275px;
+    width:260px;
+    height: 350px;
     margin-left: 25px;
     
 }
@@ -322,6 +327,24 @@ h6{
       }
   }
 
+  /* 1025px width */
+  @media (max-width: 1199px){
+    #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
+        margin: auto;
+        margin-bottom: 25px;
+      }
+      #portfolio_1{
+        margin-right: 0px;
+      }
+      #portfolio_3{
+        margin-left: 0px;
+      }
+      #portfolio_2{
+        margin-left: 25px;
+        margin-right: 25px;
+      }
+  }
+
   /* ipad viewport */
   @media (max-width: 1024px){
     #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
@@ -366,4 +389,8 @@ h6{
     h1{
         text-align: center;
     }
+  }
+
+  #test_1{
+    background-color: blue;
   }
