@@ -394,3 +394,14 @@ h6{
   #test_1{
     background-color: blue;
   }
+
+  /* fix button position on mobile devices */
+  @media (max-width: 257px) {
+    #GitHub_port1_pic{
+        margin-top: 35px;
+    }
+
+    #html_view_button{
+        margin-top: 35px;
+    }
+  }
