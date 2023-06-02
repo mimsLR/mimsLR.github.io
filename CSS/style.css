@@ -211,7 +211,7 @@ h5{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 350px;  
+    height: 375px;  
 }
 
 #HTML_email_pic{
@@ -228,7 +228,7 @@ h5{
 /* github picture inside portfolio_1 */
 
 #GitHub_port1_pic{
-    margin-top: 35px;
+    margin-top: 55px;
     width: 30px;
     height: 30px;
 }
@@ -236,7 +236,7 @@ h5{
 /* html_view_button */
 
 #html_view_button{
-    margin-top: 35px;
+    margin-top: 55px;
     margin-right: 33px;
 }
 
@@ -244,7 +244,7 @@ h5{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 350px;
+    height: 375px;
     margin-left: 25px;
     
 }
@@ -253,7 +253,7 @@ h5{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 350px;
+    height: 375px;
     margin-left: 25px;
     
 }
@@ -262,7 +262,7 @@ h5{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 350px;
+    height: 375px;
     margin-left: 25px;
     
 }
