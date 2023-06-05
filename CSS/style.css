@@ -220,9 +220,8 @@ h5{
     /* height: 150px; */
 }
 
-#portfolio1_text{
-    margin-top: 10px;
-    font-size: 20px;
+#div_text_container1{
+    margin-top: auto;
 }
 
 /* github picture inside portfolio_1 */
@@ -241,7 +240,7 @@ h5{
 } */
 
 #port1_button_container{
-    margin-top: 60px;
+    margin-top: 75px;
 }
 
 #portfolio_2{

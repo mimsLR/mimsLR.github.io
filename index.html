@@ -22,27 +22,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function() {
-          // Set the offset value to the height of the name bar
-          var offset = $('#nav_bar').outerHeight();
-    
-          // Add the offset value to the position to scroll to
-          $('a').on('click', function(event) {
-            if (this.hash !== '') {
-              event.preventDefault();
-              var target = $(this.hash);
-              $('html, body').animate({
-                scrollTop: target.offset().top + offset
-              }, 1000);
-            }
-          });
+        $(document).ready(function () {
+            // Set the offset value to the height of the name bar
+            var offset = $('#nav_bar').outerHeight();
+
+            // Add the offset value to the position to scroll to
+            $('a').on('click', function (event) {
+                if (this.hash !== '') {
+                    event.preventDefault();
+                    var target = $(this.hash);
+                    $('html, body').animate({
+                        scrollTop: target.offset().top + offset
+                    }, 1000);
+                }
+            });
         });
 
         function openImage() {
             var imageSrc = document.getElementById("HTML_email_pic").src;
             window.open(imageSrc);
-  }
-      </script>
+        }
+    </script>
 </head>
 
 <body id="body">
@@ -58,9 +58,9 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                
+
                 <ul class="navbar-nav" id="nav_bar_ul">
-                    
+
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -76,9 +76,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolioPageContent">Contact</a>
                     </li>
-                
+
                 </ul>
-                
+
             </div>
         </div>
     </nav>
@@ -96,21 +96,21 @@
                     <p id="brief_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis ut. Non enim
                         praesent elementum facilisis leo vel fringilla est.</p>
-                    
+
                     <div class="d-flex justify-content-center" id="social_links">
-                    <a href="https://github.com/mimsLR"><img src="images/github-mark.png" alt="GitHub" class="img-fluid"
-                            id="GitHub_pic"></a>
-                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedIn_logo.png" alt="LinkedIn"
-                            class="img-fluid" id="linkedIn_pic"></a>
-                    <a href="https://instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="Instagram"
-                            class="img-fluid" id="insta_logo"></a>
+                        <a href="https://github.com/mimsLR"><img src="images/github-mark.png" alt="GitHub"
+                                class="img-fluid" id="GitHub_pic"></a>
+                        <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedIn_logo.png"
+                                alt="LinkedIn" class="img-fluid" id="linkedIn_pic"></a>
+                        <a href="https://instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="Instagram"
+                                class="img-fluid" id="insta_logo"></a>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- divider -->
-        <hr class="hr hr-blurry" id="divider_1"/>
+        <hr class="hr hr-blurry" id="divider_1" />
 
         <!-- About page content -->
         <div class="container" id="aboutPageContent">
@@ -140,16 +140,18 @@
                     </div>
                     <div class="d-flex justify-content-center" id="button_container">
                         <a href="resume/logan_resume.docx" download>
-                          <button class="btn btn-outline-dark" type="button" id="download_button">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                class="bi bi-download" viewBox="0 0 16 16">
-                              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-                              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-                            </svg>
-                          </button>
+                            <button class="btn btn-outline-dark" type="button" id="download_button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-download" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+                                </svg>
+                            </button>
                         </a>
                     </div>
-                      
+
                 </div>
             </div>
         </div>
@@ -166,133 +168,135 @@
                 </div>
                 <!-- chart container -->
                 <div class="col-md-6" id="chart">
-                        <div id="chartjs">
+                    <div id="chartjs">
                         <canvas id="myChart"></canvas>
-                        </div>
-                    
+                    </div>
+
                 </div>
                 <div class="col-md-3">
 
                 </div>
-            </div>    
+            </div>
         </div>
         <!-- chart.js -->
         <script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'horizontalBar',
-    data: {
-        labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'PostScript'],
-        datasets: [{
-            label: 'Skill Level',
-            data: [90, 75, 65, 60, 50, 30],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.5)',
-                'rgba(54, 162, 235, 0.5)',
-                'rgba(255, 206, 86, 0.5)',
-                'rgba(75, 192, 192, 0.5)',
-                'rgba(153, 102, 255, 0.5)',
-                'rgba(144, 238, 144, 0.5)'
-            ],
-            borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(144, 238, 144, 1)'
-            ],
-            borderWidth: 5
-        }]
-    },
-    options: {
-        responsive: true,
-        legend: {
-            display: false
-        },
-        scales: {
-            xAxes: [{
-                ticks: {
-                    beginAtZero:true,
-                    max: 100
+            var ctx = document.getElementById('myChart').getContext('2d');
+            var myChart = new Chart(ctx, {
+                type: 'horizontalBar',
+                data: {
+                    labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'PostScript'],
+                    datasets: [{
+                        label: 'Skill Level',
+                        data: [90, 75, 65, 60, 50, 30],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.5)',
+                            'rgba(54, 162, 235, 0.5)',
+                            'rgba(255, 206, 86, 0.5)',
+                            'rgba(75, 192, 192, 0.5)',
+                            'rgba(153, 102, 255, 0.5)',
+                            'rgba(144, 238, 144, 0.5)'
+                        ],
+                        borderColor: [
+                            'rgba(255,99,132,1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(144, 238, 144, 1)'
+                        ],
+                        borderWidth: 5
+                    }]
                 },
-                gridLines: {
-                    display: false
+                options: {
+                    responsive: true,
+                    legend: {
+                        display: false
+                    },
+                    scales: {
+                        xAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: 100
+                            },
+                            gridLines: {
+                                display: false
+                            }
+                        }],
+                        yAxes: [{
+                            barPercentage: 0.5,
+                            gridLines: {
+                                display: false
+                            },
+                            afterDraw: function (chart) {
+                                var ctx = chart.chart.ctx;
+                                var index = chart.data.datasets[0].data.length - 1;
+                                var value = chart.data.datasets[0].data[index];
+                                var x = chart.scale.getPixelForValue(value) + 10;
+                                var y = chart.scale.getPixelForTick(index);
+                                ctx.beginPath();
+                                ctx.arc(x, y, 8, 0, 2 * Math.PI);
+                                ctx.fillStyle = chart.data.datasets[0].backgroundColor[index];
+                                ctx.fill();
+                            }
+                        }]
+                    }
                 }
-            }],
-            yAxes: [{
-                barPercentage: 0.5,
-                gridLines: {
-                    display: false
-                },
-                afterDraw: function (chart) {
-                    var ctx = chart.chart.ctx;
-                    var index = chart.data.datasets[0].data.length - 1;
-                    var value = chart.data.datasets[0].data[index];
-                    var x = chart.scale.getPixelForValue(value) + 10;
-                    var y = chart.scale.getPixelForTick(index);
-                    ctx.beginPath();
-                    ctx.arc(x, y, 8, 0, 2 * Math.PI);
-                    ctx.fillStyle = chart.data.datasets[0].backgroundColor[index];
-                    ctx.fill();
-                }
-            }]
-        }
-    }
-});
+            });
 
         </script>
 
         <!-- divider -->
-        <hr class="hr hr-blurry"/>
+        <hr class="hr hr-blurry" />
 
         <!-- Portfolio page content -->
         <div class="container" id="portfolioPageContent">
             <h5>Work Samples</h5>
             <div class="row justify-content-center align-items-center">
-          
-              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_1">
-                <div class="d-flex justify-content-center flex-column align-items-center" id="portfolio_1_content">
-                  <div class="d-flex justify-content-center" id="HTML_email_display">
-                    <img src="images/HTML_email_display.png" class="img-fluid" alt="Logan" id="HTML_email_pic">
-                  </div>
-                  <p id="portfolio1_text"><b>HTML Emails</b></p>
-                  <p>HTML emails developed for clients that need E-bill solutions.</p>
-                
-                <div class="d-flex justify-content-center align-items-center" id="port1_button_container">
-                  <!-- github -->
-                  <div class="">
-                    <a href="https://github.com/mimsLR/PVUD_HTML_email">
-                      <img src="images/github.svg" alt="GitHub" class="img-fluid" id="GitHub_port1_pic">
-                    </a>
-                  </div>
-                  <!-- view button -->
-                  <div class="mx-auto">
-                    <button type="button" class="btn btn-dark" id="html_view_button" onclick="openImage()">View</button>
+
+                <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_1">
+                    <div class="d-flex justify-content-center flex-column align-items-center" id="portfolio_1_content">
+                        <div class="d-flex justify-content-center" id="HTML_email_display">
+                            <img src="images/HTML_email_display.png" class="img-fluid" alt="Logan" id="HTML_email_pic">
+                        </div>
+                        <div id="div_text_container1" class="align-items-center">
+                            <p id="portfolio1_text"><b>HTML Emails</b></p>
+                            <p>HTML emails developed for clients that need E-bill solutions.</p>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center" id="port1_button_container">
+                            <!-- github -->
+                            <div class="">
+                                <a href="https://github.com/mimsLR/PVUD_HTML_email">
+                                    <img src="images/github.svg" alt="GitHub" class="img-fluid" id="GitHub_port1_pic">
+                                </a>
+                            </div>
+                            <!-- view button -->
+                            <div class="mx-auto">
+                                <button type="button" class="btn btn-dark" id="html_view_button"
+                                    onclick="openImage()">View</button>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-          
-              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_2">
-          
-              </div>
-              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_3">
-          
-              </div>
-              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_4">
-          
-              </div>
-          
+
+                <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_2">
+
+                </div>
+                <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_3">
+
+                </div>
+                <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_4">
+
+                </div>
+
             </div>
-          </div>
-          
-          
-          
-          
+        </div>
+
+
+
+
 
         <!-- divider -->
-        <hr class="hr hr-blurry"/>
+        <hr class="hr hr-blurry" />
 
     </main>
 
@@ -312,25 +316,25 @@ var myChart = new Chart(ctx, {
             </div>
             <div class="col-md-4" id="socials">
                 <p id="socials_p">Socials</p>
-                <p> 
+                <p>
                     <!-- github -->
                     <a href="https://github.com/mimsLR"><img src="images/github.svg" alt="GitHub" class="img-fluid"
-                        id="GitHub_footer"></a>
+                            id="GitHub_footer"></a>
                     <!-- linkedin -->
-                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedin.svg" alt="LinkedIn"
-                        class="img-fluid" id="linkedIn_footer"></a>
+                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedin.svg"
+                            alt="LinkedIn" class="img-fluid" id="linkedIn_footer"></a>
                     <!-- instagram     -->
-                    <a href="https://instagram.com/"><img src="images/instagram.svg" alt="Instagram"
-                        class="img-fluid" id="insta_footer"></a>
+                    <a href="https://instagram.com/"><img src="images/instagram.svg" alt="Instagram" class="img-fluid"
+                            id="insta_footer"></a>
                 </p>
             </div>
         </div>
 
     </div>
 
-            <!-- divider -->
-            <hr class="hr hr-blurry"/>
-            <p id="copyright">Developed by Logan Mims.</p>
+    <!-- divider -->
+    <hr class="hr hr-blurry" />
+    <p id="copyright">Developed by Logan Mims.</p>
 
 </footer>
 
