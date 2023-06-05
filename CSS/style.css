@@ -227,17 +227,21 @@ h5{
 
 /* github picture inside portfolio_1 */
 
-#GitHub_port1_pic{
+/* #GitHub_port1_pic{
     margin-top: 55px;
     width: 30px;
     height: 30px;
-}
+} */
 
 /* html_view_button */
 
-#html_view_button{
+/* #html_view_button{
     margin-top: 55px;
     margin-right: 33px;
+} */
+
+#port1_button_container{
+    margin-top: 60px;
 }
 
 #portfolio_2{
@@ -404,9 +408,4 @@ h6{
     #html_view_button{
         margin-top: 35px;
     }
-  }
-
-
-  #port1_button_container{
-    margin-top: auto;
   }
