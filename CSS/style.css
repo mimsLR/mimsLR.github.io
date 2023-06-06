@@ -218,7 +218,6 @@ h5{
 .test_2{
     height: 20%;
     margin-top: 5px;
-    background-color: aqua;
 }
 
 .test_3{
@@ -235,6 +234,13 @@ h5{
 #HTML_email_pic{
     border-radius: 15px;
     margin-top: 10px;
+}
+
+#GitHub_port1_pic{
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
 }
 
 #html_view_button{
