@@ -10,6 +10,15 @@ h1, h2, h3, h4, h5 {
     font-size: 35px;
   }
 
+.header_hr{
+    color: white;
+}
+
+.divider{
+    margin-top: 100px;
+    color: black;
+}
+
 /* nav bar */
 
 .navbar-brand,
@@ -39,8 +48,41 @@ h1, h2, h3, h4, h5 {
 /* **************************************************************** */
 
 /* Home page */
+
 main{
-    margin-top: 100px;
+    margin-top: 130px;
+}
+
+.home_page_div{
+    background-color: #313338;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.home_page_p_tag{
+    color: white;
+    margin-top: 10px;
+}
+
+#insta_home_page_p, #linkedIn_home_page_p, #GitHub_home_page_p{
+    margin-top: 10px;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+#GitHub_home_page_p{
+    margin-right: 5px;
+}
+
+#insta_home_page_p{
+    margin-left: 5px;
 }
 
 /* image style */
@@ -100,34 +142,43 @@ main{
 
 /* about page */
 
-.hr-blurry{
+#aboutPageContent{
     margin-top: 100px;
 }
 
-#aboutPageContent{
-    margin-top: 50px;
-}
-
-/* #aboutPageContent2{
-    background: red;
-} */
-
 #about_me{
+    margin-top: 10px;
     text-align: center;
 }
 
-#aboutPageContent2{
-    /* background: #fff;
+.about_me_container{
+    color: white;
+    background: #313338;
+    /* margin-right: 5px; */
     border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
-    /* background-color: aqua; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.about_page_p_tag{
+    margin-top: 10px;
+    margin-bottom: 10;
+}
+
+.resume_container{
+    color: white;
+    background: #313338;
+    /* margin-left: 5px; */
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #resume_pic{
+    margin-top: 50px;
     width: 150px;
     height: 200px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(255, 255, 255, 0.5);
 }
 
 /* resume picture pulse */
@@ -149,17 +200,19 @@ main{
   }
 
 #resume_header{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-    padding-bottom: 20px;
-    border: black;
 }
 
 #download_button{
-    color: black;
+    color: white;
+    border-color: white;
 }
 
 #download_button:hover{
-    color:#fff;
+    color:black;
+    background-color: #fff;
 }
 
 #button_container{
@@ -170,26 +223,62 @@ main{
 
 /* skills page */
 
-#skillsPageContent{
-    margin-top: 50px;
-}
-
-#chart{
+.skills_container{
+    background-color: #313338;
+    margin-top: 100px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.skill_page_header_p{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.IT_skill{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    /* background-color: white; */
+    border-radius: 15px;
+}
+
+.IT_skill_p{
+    color: white;
+    align-items: center ;
+}
+
+.chart{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* background-color: white; */
+    border-radius: 15px;
+    /* box-shadow: 0px 5px px 0px rgb(255, 255, 255); */
+}
+
+.Soft_Skills{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    /* background-color: white; */
+    border-radius: 15px;
+}
+
+.soft_skill_item{
+    color: white;
 }
 
 #chartjs{
     padding-bottom: 15px;
 }
 
-#test1{
-    /* background-color: aqua; */
-}
-
 h4{
+    padding-top: 10px;
+    color:white;
     text-align: center;
-    padding-bottom: 20px;
 }
 
 /* **************************************************************** */
@@ -207,23 +296,6 @@ h5{
 
 /* work samples */
 
-.porfolio1_column{
-    height: 100%;
-}
-
-.test_1{
-    height: 100%;
-}
-
-.test_2{
-    height: 20%;
-    margin-top: 5px;
-}
-
-.test_3{
-    height: 100%;
-}
-
 #portfolio_1{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
@@ -234,17 +306,27 @@ h5{
 #HTML_email_pic{
     border-radius: 15px;
     margin-top: 10px;
+    /* height: 150px; */
 }
 
+#portfolio1_text{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* github picture inside portfolio_1 */
+
 #GitHub_port1_pic{
-    margin-right: auto;
-    margin-bottom: 10px;
+    margin-top: 55px;
     width: 30px;
     height: 30px;
 }
 
+/* html_view_button */
+
 #html_view_button{
-    margin-bottom: 10px;
+    margin-top: 55px;
+    margin-right: 33px;
 }
 
 #portfolio_2{
