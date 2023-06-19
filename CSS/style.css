@@ -485,7 +485,7 @@ h6{
   }
 
   /* fix button position on mobile devices */
-  @media (max-width: 257px) {
+  /* @media (max-width: 257px) {
     #GitHub_port1_pic{
         margin-top: 35px;
     }
@@ -493,4 +493,4 @@ h6{
     #html_view_button{
         margin-top: 35px;
     }
-  }
+  } */
