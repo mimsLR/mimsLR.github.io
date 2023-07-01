@@ -10,6 +10,15 @@ h1, h2, h3, h4, h5 {
     font-size: 35px;
   }
 
+.header_hr{
+    color: white;
+}
+
+.divider{
+    margin-top: 100px;
+    color: black;
+}
+
 /* nav bar */
 
 .navbar-brand,
@@ -39,9 +48,47 @@ h1, h2, h3, h4, h5 {
 /* **************************************************************** */
 
 /* Home page */
+
 main{
-    margin-top: 100px;
+    margin-top: 130px;
 }
+
+.homePageContent{
+    background-color: #313338;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    /* width: 1000px; */
+}
+
+h1{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.home_page_p_tag{
+    color: white;
+    margin-top: 10px;
+}
+
+.GitHub_home_page_img{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.linkedIn_home_page_img{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.insta_home_page_img{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 30px;
+}
+
 
 /* image style */
 #grad_pic{
@@ -100,34 +147,43 @@ main{
 
 /* about page */
 
-.hr-blurry{
+#aboutPageContent{
     margin-top: 100px;
 }
 
-#aboutPageContent{
-    margin-top: 50px;
-}
-
-/* #aboutPageContent2{
-    background: red;
-} */
-
 #about_me{
+    margin-top: 10px;
     text-align: center;
 }
 
-#aboutPageContent2{
-    /* background: #fff;
+.about_me_container{
+    color: white;
+    background: #313338;
+    /* margin-right: 5px; */
     border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); */
-    /* background-color: aqua; */
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+}
+
+.about_page_p_tag{
+    margin-top: 10px;
+    margin-bottom: 10;
+}
+
+.resume_container{
+    color: white;
+    background: #313338;
+    /* margin-left: 5px; */
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #resume_pic{
+    margin-top: 50px;
     width: 150px;
     height: 200px;
-    border-radius: 20px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgba(255, 255, 255, 0.5);
 }
 
 /* resume picture pulse */
@@ -149,17 +205,20 @@ main{
   }
 
 #resume_header{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
-    padding-bottom: 20px;
-    border: black;
 }
 
 #download_button{
-    color: black;
+    color: white;
+    border-color: white;
+    margin-top: 20px;
 }
 
 #download_button:hover{
-    color:#fff;
+    color:black;
+    background-color: #fff;
 }
 
 #button_container{
@@ -170,26 +229,36 @@ main{
 
 /* skills page */
 
-#skillsPageContent{
-    margin-top: 50px;
-}
-
-#chart{
+.skills_container{
+    background-color: #313338;
+    margin-top: 100px;
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-}
-
-#chartjs{
-    padding-bottom: 15px;
-}
-
-#test1{
-    /* background-color: aqua; */
+    color: white;
 }
 
 h4{
+    padding-top: 10px;
+    color:white;
     text-align: center;
-    padding-bottom: 20px;
+}
+
+.skills_page_header_p_tag{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.skills_page_row{
+    padding-bottom: 30px;
+}
+
+.chart{
+    width: 400px;
+}
+
+
+.skills_p_tag{
+    text-align: center;
 }
 
 /* **************************************************************** */
@@ -207,11 +276,12 @@ h5{
 
 /* work samples */
 
-#portfolio_1{
+.portfolio_box{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 375px;  
+    height: 375px;
+    margin-top: auto; 
 }
 
 #HTML_email_pic{
@@ -220,51 +290,24 @@ h5{
     /* height: 150px; */
 }
 
-#portfolio1_text{
-    margin-top: 10px;
+.portfolio_header_p_container{
+    margin-top: 5px;
+}
+
+.portfolio_header_p_tag{
     font-size: 20px;
+    text-align: center;
 }
 
 /* github picture inside portfolio_1 */
 
 #GitHub_port1_pic{
-    margin-top: 55px;
     width: 30px;
     height: 30px;
 }
 
-/* html_view_button */
-
-#html_view_button{
-    margin-top: 55px;
-    margin-right: 33px;
-}
-
-#portfolio_2{
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:260px;
-    height: 375px;
-    margin-left: 25px;
-    
-}
-
-#portfolio_3{
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:260px;
-    height: 375px;
-    margin-left: 25px;
-    
-}
-
-#portfolio_4{
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    width:260px;
-    height: 375px;
-    margin-left: 25px;
-    
+.hello{
+   margin-right: auto;
 }
 
 /* footer content */
@@ -285,7 +328,7 @@ h6{
 
 #email{
     text-align: center;
-    /* background-color: blueviolet; */
+    
 }
 
 #socials{
@@ -306,18 +349,11 @@ h6{
 
 /* media queries */
 
-/* @media (max-width: 1200px) {
-    .row > div[class^="col-"] {
-      margin-bottom: 25px;
-    }
-  } */
-
   /* footer image sizing */
   #GitHub_footer, #linkedIn_footer, #insta_footer{
     width: 30px;
     height: 30px;
   }
-
 
   /* desktop viewport */
   @media (max-width: 1200px){
@@ -329,79 +365,35 @@ h6{
 
   /* 1025px width */
   @media (max-width: 1199px){
-    #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
-        margin: auto;
-        margin-bottom: 25px;
-      }
-      #portfolio_1{
-        margin-right: 0px;
-      }
-      #portfolio_3{
-        margin-left: 0px;
-      }
-      #portfolio_2{
-        margin-left: 25px;
-        margin-right: 25px;
-      }
+
   }
 
   /* ipad viewport */
   @media (max-width: 1024px){
-    #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
-        margin: auto;
-        margin-bottom: 25px;
-      }
-      #portfolio_1{
-        margin-right: 0px;
-      }
-      #portfolio_3{
-        margin-left: 0px;
-      }
-      #portfolio_2{
-        margin-left: 25px;
-        margin-right: 25px;
-      }
+
   }
 
   /* medium device viewports */
   @media (max-width: 992px){
-    #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
-        margin: auto;
-        margin-bottom: 25px;
-      }
-    #portfolio_2, #portfolio_4{
-        margin-left: 25px;
+
+    .resume_container{
+        margin-top: 20px;
     }
-    #portfolio_1, #portfolio_3{
-        margin-right: 0px;
+    #download_button{
+        margin-bottom: 20px;
+    }
+    .programming_content{
+        margin-top: 50px;
+    }
+    .soft_skills_content{
+        margin-top: 50px;
+    }
+    .chart{
+        margin: auto;
     }
   }
 
   /* mobile device viewports */
   @media (max-width: 768px) {
-    #portfolio_1, #portfolio_2, #portfolio_3, #portfolio_4 {
-        margin: auto;
-        margin-bottom:25px;
-      }
-    #grad_pic{
-        margin-bottom: 25px;
-    }
-    h1{
-        text-align: center;
-    }
-  }
 
-  #test_1{
-    background-color: blue;
-  }
-
-  /* fix button position on mobile devices */
-  @media (max-width: 257px) {
-    #GitHub_port1_pic{
-        margin-top: 35px;
-    }
-
-    #html_view_button{
-        margin-top: 35px;
-    }
   }
