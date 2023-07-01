@@ -50,43 +50,7 @@ h1, h2, h3, h4, h5 {
 /* Home page */
 
 main{
-    margin-top: 130px;
-}
-
-.homePageContent{
-    background-color: #313338;
-    border-radius: 15px;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
-    /* width: 1000px; */
-}
-
-h1{
-    color: white;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.home_page_p_tag{
-    color: white;
-    margin-top: 10px;
-}
-
-.GitHub_home_page_img{
-    margin-bottom: 10px;
-    height: 30px;
-    width: 30px;
-}
-
-.linkedIn_home_page_img{
-    margin-bottom: 10px;
-    height: 30px;
-    width: 30px;
-}
-
-.insta_home_page_img{
-    margin-bottom: 10px;
-    height: 30px;
-    width: 30px;
+    margin-top: 100px;
 }
 
 
@@ -211,9 +175,7 @@ h1{
 }
 
 #download_button{
-    color: white;
-    border-color: white;
-    margin-top: 20px;
+    color: black;
 }
 
 #download_button:hover{
@@ -248,16 +210,15 @@ h4{
     font-size: 25px;
 }
 
-.skills_page_row{
-    padding-bottom: 30px;
+#chartjs{
+    padding-bottom: 15px;
 }
 
-.chart{
-    width: 400px;
+#test1{
+    /* background-color: aqua; */
 }
 
-
-.skills_p_tag{
+h4{
     text-align: center;
 }
 
@@ -396,4 +357,15 @@ h6{
   /* mobile device viewports */
   @media (max-width: 768px) {
 
+  }
+
+  /* fix button position on mobile devices */
+  @media (max-width: 257px) {
+    #GitHub_port1_pic{
+        margin-top: 35px;
+    }
+
+    #html_view_button{
+        margin-top: 35px;
+    }
   }

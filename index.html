@@ -99,28 +99,25 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg col-sm d-flex justify-content-center">
-                    <p class="home_page_p_tag">My name is Logan and I am a recent Computer Science graduate from UAB. I currently work as an IT Specialist at Financial Imaging. There I work on a multitude of projects incuding but not limited to HTML email development, data management, server management, and website administrator where I create and manage users for our clients.</p>
+                <div class="col-md-6" id="homePageContent2">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/grad_picv2.jpg" class="img-fluid" alt="Logan" id="grad_pic">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg col-sm d-flex justify-content-center">
-                    <p> 
-                        <!-- github -->
-                        <a href="https://github.com/mimsLR"><img src="images/github_.svg" alt="GitHub"
-                                class="img-fluid GitHub_home_page_img" id="GitHub_home_page_img"></a>
+                <div class="col-md-6" id="homePageContent3">
+                    <h1 id="my_name">Logan Mims - IT Specialist</h1>
+                    <p id="brief_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Sagittis vitae et leo duis ut. Non enim
+                        praesent elementum facilisis leo vel fringilla est.</p>
                     
-                    
-                        <!-- linkedin -->
-                        <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img
-                                src="images/linkedin_.svg" alt="LinkedIn" class="img-fluid linkedIn_home_page_img"
-                                id="linkedIn_home_page_img"></a>
-                    
-                    
-                        <!-- instagram     -->
-                        <a href="https://instagram.com/"><img src="images/instagram_.svg" alt="Instagram"
-                                class="img-fluid insta_home_page_img" id="insta_home_page_img"></a>
-                    </p>
+                    <div class="d-flex justify-content-center" id="social_links">
+                    <a href="https://github.com/mimsLR"><img src="images/github-mark.png" alt="GitHub" class="img-fluid"
+                            id="GitHub_pic"></a>
+                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedIn_logo.png" alt="LinkedIn"
+                            class="img-fluid" id="linkedIn_pic"></a>
+                    <a href="https://instagram.com/"><img src="images/Instagram_Glyph_Gradient.jpg" alt="Instagram"
+                            class="img-fluid" id="insta_logo"></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,9 +126,9 @@
         <hr class="divider">
 
         <!-- About page content -->
-        <div class="container d-flex justify-content-center" id="aboutPageContent">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-5 col-md-12 col-sm-12 about_me_container" id="aboutPageContent2">
+        <div class="container" id="aboutPageContent">
+            <div class="row">
+                <div class="col-md-6" id="aboutPageContent2">
                     <h2 id="about_me">About me</h2>
                     <hr class="header_hr">
                     <div class="d-flex justify-content-center about_page_text_div">
@@ -150,10 +147,7 @@
                             egestas.</p>
                     </div>
                 </div>
-                <div class="col-lg-1 col-md-12 col-sm-12">
-                    
-                </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 resume_container" id="resume_container">
+                <div class="col-md-6" id="resume_container">
                     <h3 id="resume_header">Resume</h3>
                     <hr class="header_hr">
                     <div class="d-flex justify-content-center">
@@ -183,132 +177,86 @@
         <!-- skills page content -->
         <div class="container skills_container" id="skillsPageContent">
             <h4>Skills</h4>
-            <hr class="header_hr">
-           <div class="row skills_page_row">
-                <!-- IT content -->
-                <div class="col-lg justify-content-center">
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
-                        <p class="skills_page_header_p_tag">IT</p>
-                    </div>
-                    <div class="justify-content-center">
-                        <hr class="header_hr">
-                        <p class="skills_p_tag">Website Admin</p>
-                        <p class="skills_p_tag">Printer Configuration</p>
-                        <p class="skills_p_tag">Cloud</p>
-                        <p class="skills_p_tag">Data Management</p>
-                        <p class="skills_p_tag">IT Support</p>
-                    </div>
-                    <!-- <div class="col-lg-12 col-md-12 col-sm-12"><hr class="header_hr"></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Website Admin</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Printer Configuration</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Cloud</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Data Management</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>IT Support</p></div> -->
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-3" id="test1">
+
                 </div>
-                <!-- Programming content -->
-                <div class="col-lg programming_content">
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
-                        <p class="skills_page_header_p_tag">Programming</p>
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12">
-                        <hr class="header_hr">
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 chart">
-                            <canvas id="myChart"></canvas>
-                    </div>
+                <!-- chart container -->
+                <div class="col-md-6" id="chart">
+                        <div id="chartjs">
+                        <canvas id="myChart"></canvas>
+                        </div>
+                    
                 </div>
-                <!-- Soft Skills content -->
-                <div class="col-lg soft_skills_content">
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
-                        <p class="skills_page_header_p_tag">Soft Skills</p>
-                    </div>
-                    <div class="justify-content-center">
-                        <hr class="header_hr">
-                        <p class="skills_p_tag">Website Admin</p>
-                        <p class="skills_p_tag">Printer Configuration</p>
-                        <p class="skills_p_tag">Cloud</p>
-                        <p class="skills_p_tag">Data Management</p>
-                        <p class="skills_p_tag">IT Support</p>
-                    </div>
-                    <!-- <div class="col-lg-12 col-md-12 col-sm-12"><hr class="header_hr"></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Problem Solving</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Customer Service</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Communication</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Writing</p></div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"><p>Time Management</p></div> -->
+                <div class="col-md-3">
+
                 </div>
-           </div>
+            </div>    
         </div>
         <!-- chart.js -->
         <script>
-            var ctx = document.getElementById('myChart').getContext('2d');
-            var myChart = new Chart(ctx, {
-                type: 'horizontalBar',
-                data: {
-                    labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'PostScript'],
-                    datasets: [{
-                        label: 'Skill Level',
-                        data: [90, 75, 65, 60, 50, 30],
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.5)',
-                            'rgba(54, 162, 235, 0.5)',
-                            'rgba(255, 206, 86, 0.5)',
-                            'rgba(75, 192, 192, 0.5)',
-                            'rgba(153, 102, 255, 0.5)',
-                            'rgba(144, 238, 144, 0.5)'
-                        ],
-                        borderColor: [
-                            'rgba(255,99,132,1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 1)',
-                            'rgba(144, 238, 144, 1)'
-                        ],
-                        borderWidth: 2
-                    }]
+var ctx = document.getElementById('myChart').getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'horizontalBar',
+    data: {
+        labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'PostScript'],
+        datasets: [{
+            label: 'Skill Level',
+            data: [90, 75, 65, 60, 50, 30],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(54, 162, 235, 0.5)',
+                'rgba(255, 206, 86, 0.5)',
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(153, 102, 255, 0.5)',
+                'rgba(144, 238, 144, 0.5)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(144, 238, 144, 1)'
+            ],
+            borderWidth: 5
+        }]
+    },
+    options: {
+        responsive: true,
+        legend: {
+            display: false
+        },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    beginAtZero:true,
+                    max: 100
                 },
-                options: {
-                    responsive: true,
-                    legend: {
-                        display: false
-                    },
-                    scales: {
-                        xAxes: [{
-                            ticks: {
-                                beginAtZero: true,
-                                max: 100,
-                                fontColor: 'white',
-                                display: false,
-                            },
-                            gridLines: {
-                                display: false
-                            }
-                        }],
-                        yAxes: [{
-                            barPercentage: 0.5,
-                            gridLines: {
-                                display: false
-                            },
-                            ticks: {
-                                fontColor: 'white',
-                                fontSize: 15,
-                            },    
-                            // afterDraw: function (chart) {
-                            //     var ctx = chart.chart.ctx;
-                            //     var index = chart.data.datasets[0].data.length - 1;
-                            //     var value = chart.data.datasets[0].data[index];
-                            //     var x = chart.scale.getPixelForValue(value) + 10;
-                            //     var y = chart.scale.getPixelForTick(index);
-                            //     ctx.beginPath();
-                            //     ctx.arc(x, y, 8, 0, 2 * Math.PI);
-                            //     ctx.fillStyle = chart.data.datasets[0].backgroundColor[index];
-                            //     ctx.fill();
-                            // }
-                        }]
-                    }
+                gridLines: {
+                    display: false
                 }
-            });
+            }],
+            yAxes: [{
+                barPercentage: 0.5,
+                gridLines: {
+                    display: false
+                },
+                afterDraw: function (chart) {
+                    var ctx = chart.chart.ctx;
+                    var index = chart.data.datasets[0].data.length - 1;
+                    var value = chart.data.datasets[0].data[index];
+                    var x = chart.scale.getPixelForValue(value) + 10;
+                    var y = chart.scale.getPixelForTick(index);
+                    ctx.beginPath();
+                    ctx.arc(x, y, 8, 0, 2 * Math.PI);
+                    ctx.fillStyle = chart.data.datasets[0].backgroundColor[index];
+                    ctx.fill();
+                }
+            }]
+        }
+    }
+});
 
         </script>
 
@@ -318,36 +266,44 @@
         <!-- Portfolio page content -->
         <div class="container" id="portfolioPageContent">
             <h5>Work Samples</h5>
-            <div class="row justify-content-around">
-
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
-                    <div><img src="images/HTML_email_display.png" class="img-fluid" alt="Logan" id="HTML_email_pic"></div>
-                    <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">HTML Emails</p></div>
-                    <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">HTML emails developed for clients that need E-bill solutions.</p></div>
-                    <div class="mt-auto mb-2 d-flex align-items-center">
-                        <div class="">
-                            <a href="https://github.com/mimsLR/PVUD_HTML_email"><img src="images/github.svg" alt="GitHub" class="img-fluid" id="GitHub_port1_pic"></a>
-                        </div>
-                        <div class="">
-                            <button type="button" class="btn btn-dark" id="html_view_button" onclick="openImage()">View</button>
-                        </div>
-                    </div>
+            <div class="row justify-content-center align-items-center">
+          
+              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_1">
+                <div class="d-flex justify-content-center" id="HTML_email_display">
+                  <img src="images/HTML_email_display.png" class="img-fluid" alt="Logan" id="HTML_email_pic">
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4">
-
+                <p id="portfolio1_text"><b>HTML Emails</b></p>
+                <p>HTML emails developed for clients that need E-bill solutions.</p>
+                <div class="d-flex justify-content-center align-items-center" id="port1_button_container">
+                  <!-- github -->
+                  <div class="mr-auto">
+                    <a href="https://github.com/mimsLR/PVUD_HTML_email">
+                      <img src="images/github.svg" alt="GitHub" class="img-fluid" id="GitHub_port1_pic">
+                    </a>
+                  </div>
+                  <!-- view button -->
+                  <div class="mx-auto">
+                    <button type="button" class="btn btn-dark" id="html_view_button" onclick="openImage()">View</button>
+                  </div>
                 </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4">
-
-                </div>
-
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4">
-
-                </div>
-
+              </div>
+          
+              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_2">
+          
+              </div>
+              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_3">
+          
+              </div>
+              <div class="col-sm-4 col-md-8 col-lg-2" id="portfolio_4">
+          
+              </div>
+          
             </div>
-        </div>
+          </div>
+          
+          
+          
+          
 
         <!-- divider -->
         <hr class="hr hr-blurry" />
