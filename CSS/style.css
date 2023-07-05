@@ -188,7 +188,7 @@ h1{
 
 /* resume picture pulse */
 
-.animate__pulse {
+.resume{
     animation: pulse 3s infinite;
   }
   
@@ -287,11 +287,27 @@ h5{
 
 }
 
-#HTML_email_pic{
+.portfolio_box:hover{
+
+}
+
+.portfolio_header_image_container{
+
+}
+
+.portfolio_header_image{
     border-radius: 15px;
     margin-top: 10px;
-    /* height: 150px; */
+    width: 240px;
+    height: 140px;
 }
+
+/* #HTML_email_pic{
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 240px;
+    height: 138px;
+} */
 
 .portfolio_header_p_container{
     margin-top: 5px;
@@ -308,13 +324,9 @@ h5{
 
 /* github picture inside portfolio_1 */
 
-#GitHub_port1_pic{
+.GitHub_portfolio_image{
     width: 30px;
     height: 30px;
-}
-
-.hello{
-   margin-right: auto;
 }
 
 /* footer content */
