@@ -280,7 +280,7 @@ h5{
     border-radius: 15px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     width:260px;
-    height: 375px;
+    height: 380px;
     margin-top: auto;
     background-color: #313338;
     color:#fff;
@@ -310,7 +310,7 @@ h5{
 } */
 
 .portfolio_header_p_container{
-    margin-top: 5px;
+    margin-top: 0px;
 }
 
 .portfolio_header_p_tag{

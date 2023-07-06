@@ -41,10 +41,15 @@
             });
         });
 
-        // function to open portfolio 1 image
+        // function to open HTML_email_pic
         function openImage() {
             var imageSrc = document.getElementById("HTML_email_pic").src;
             window.open(imageSrc);
+        }
+
+        function openImage2(){
+            var imageSrc2 = document.getElementById("Tundra_Trek_pic").src;
+            window.open(imageSrc2);
         }
     </script>
 </head>
@@ -52,11 +57,6 @@
 <body id="body">
     <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid" id="nav_bar">
-            <!-- <a class="navbar-brand" href="#">Logan</a> -->
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>  -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -107,18 +107,18 @@
                 <div class="col-lg col-sm d-flex justify-content-center">
                     <p> 
                         <!-- github -->
-                        <a href="https://github.com/mimsLR"><img src="images/github_.svg" alt="GitHub"
+                        <a href="https://github.com/mimsLR" target="_blank"><img src="images/github_.svg" alt="GitHub"
                                 class="img-fluid GitHub_home_page_img" id="GitHub_home_page_img"></a>
                     
                     
                         <!-- linkedin -->
-                        <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img
+                        <a href="https://www.linkedin.com/in/logan-mims-b2139523a/" target="_blank"><img
                                 src="images/linkedin_.svg" alt="LinkedIn" class="img-fluid linkedIn_home_page_img"
                                 id="linkedIn_home_page_img"></a>
                     
                     
                         <!-- instagram     -->
-                        <a href="https://instagram.com/"><img src="images/instagram_.svg" alt="Instagram"
+                        <a href="https://instagram.com/" target="_blank"><img src="images/instagram_.svg" alt="Instagram"
                                 class="img-fluid insta_home_page_img" id="insta_home_page_img"></a>
                     </p>
                 </div>
@@ -320,14 +320,15 @@
             <h5>Work Samples</h5>
             <div class="row justify-content-around">
 
+                <!-- HTML Emails -->
                 <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
                     <div class="portfolio_header_image_container"><img src="images/HTML_email_display.png" class="img-fluid portfolio_header_image" alt="Logan" id="HTML_email_pic"></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">HTML Emails</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">HTML emails developed for clients that need E-bill solutions.</p></div>
-                    <div class="mt-auto mb-2 row">
+                    <div class="mt-auto mb-2 row d-flex">
                         
-                            <div class="col">
-                                <a href="https://github.com/mimsLR/PVUD_HTML_email"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
+                            <div class="col d-flex align-content-center flex-wrap">
+                                <a href="https://github.com/mimsLR/PVUD_HTML_email" target="_blank"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
                             </div>
                             <div class="col">
                                 <button type="button" class="btn btn-light" id="html_view_button" onclick="openImage()">View</button>
@@ -339,14 +340,15 @@
                     </div>
                 </div>
 
+                <!-- Website Admin -->
                 <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
                     <div class="portfolio_header_image_container"><img src="images/COF_view.png" class="img-fluid portfolio_header_image" alt="Logan" id=""></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">Website Admin</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">Managed users, updated styling, and created new DNS records via AWS as needed for new clients.</p></div>
-                    <div class="mt-auto mb-2 row">
+                    <div class="mt-auto mb-2 row d-flex">
                         
-                            <div class="col">
-                                <a href="https://github.com/mimsLR/PVUD_HTML_email"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
+                            <div class="col d-flex align-content-center flex-wrap">
+                                <!-- <a href="https://github.com/mimsLR/PVUD_HTML_email" target="_blank"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a> -->
                             </div>
                             <div class="col">
                                 <button type="button" class="btn btn-light" id="admin_view_button"><a href="http://fultondale.viewyourbills.com" style="text-decoration: none; color: black;" target="_blank">View</a></button>
@@ -358,20 +360,21 @@
                     </div>
                 </div>
 
+                <!-- Tundra Trek -->
                 <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
-                    <div class="portfolio_header_image_container"><img src="images/HTML_email_display.png" class="img-fluid portfolio_header_image" alt="Logan" id="HTML_email_pic"></div>
-                    <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">HTML Emails</p></div>
-                    <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">HTML emails developed for clients that need E-bill solutions.</p></div>
-                    <div class="mt-auto mb-2 row">
+                    <div class="portfolio_header_image_container" target="_blank"><img src="images/tundra_trek_game.png" class="img-fluid portfolio_header_image" alt="Logan" id="Tundra_Trek_pic"></div>
+                    <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">Tundra Trek</p></div>
+                    <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">This game was made with a group in my Unreal Engine class. My primary focus was character animation, gun functionality, and AI.</p></div>
+                    <div class="mt-auto mb-2 row d-flex">
                         
                             <div class="col">
-                                <a href="https://github.com/mimsLR/PVUD_HTML_email"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
+                                <!-- <a href="https://github.com/mimsLR/PVUD_HTML_email" target="_blank"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a> -->
                             </div>
                             <div class="col">
-                                <button type="button" class="btn btn-light" id="html_view_button" onclick="openImage()">View</button>
+                                <button type="button" class="btn btn-light" id="html_view_button" onclick="openImage2()">View</button>
                             </div>
-                            <div class="col">
-
+                            <div class="col d-flex justify-content-end align-content-center flex-wrap">
+                                <a href="https://youtu.be/b07Stcci5I4" target="_blank"><img src="images/youtube.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
                             </div>
                         
                     </div>
@@ -384,7 +387,7 @@
                     <div class="mt-auto mb-2 row">
                         
                             <div class="col">
-                                <a href="https://github.com/mimsLR/PVUD_HTML_email"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
+                                <a href="https://github.com/mimsLR/PVUD_HTML_email" target="_blank"><img src="images/github_.svg" alt="GitHub" class="img-fluid GitHub_portfolio_image" id="GitHub_port1_pic"></a>
                             </div>
                             <div class="col">
                                 <button type="button" class="btn btn-light" id="html_view_button" onclick="openImage()">View</button>
@@ -422,13 +425,13 @@
                 <p id="socials_p">Socials</p>
                 <p>
                     <!-- github -->
-                    <a href="https://github.com/mimsLR"><img src="images/github.svg" alt="GitHub" class="img-fluid"
+                    <a href="https://github.com/mimsLR" target="_blank"><img src="images/github.svg" alt="GitHub" class="img-fluid"
                             id="GitHub_footer"></a>
                     <!-- linkedin -->
-                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/"><img src="images/linkedin.svg"
+                    <a href="https://www.linkedin.com/in/logan-mims-b2139523a/" target="_blank"><img src="images/linkedin.svg"
                             alt="LinkedIn" class="img-fluid" id="linkedIn_footer"></a>
                     <!-- instagram     -->
-                    <a href="https://instagram.com/"><img src="images/instagram.svg" alt="Instagram" class="img-fluid"
+                    <a href="https://instagram.com/" target="_blank"><img src="images/instagram.svg" alt="Instagram" class="img-fluid"
                             id="insta_footer"></a>
                 </p>
             </div>
