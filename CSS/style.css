@@ -167,7 +167,7 @@ h1{
 
 .about_page_p_tag{
     margin-top: 10px;
-    margin-bottom: 10;
+    /* margin-bottom: 10; */
 }
 
 .resume_container{
