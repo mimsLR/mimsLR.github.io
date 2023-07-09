@@ -170,6 +170,10 @@ h1{
     /* margin-bottom: 10; */
 }
 
+.about_page_text_div{
+    margin-top: 20px;
+}
+
 .resume_container{
     color: white;
     background: #313338;
@@ -179,7 +183,7 @@ h1{
 }
 
 #resume_pic{
-    margin-top: 50px;
+    margin-top: 20px;
     width: 150px;
     height: 200px;
     border-radius: 10px;
@@ -210,19 +214,20 @@ h1{
     text-align: center;
 }
 
-#download_button{
+.download_button{
     color: white;
     border-color: white;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-#download_button:hover{
+.download_button:hover{
     color:black;
     background-color: #fff;
 }
 
 #button_container{
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 /* **************************************************************** */

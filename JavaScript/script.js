@@ -9,6 +9,11 @@
     var imageSrc2 = document.getElementById("Tundra_Trek_pic").src;
     window.open(imageSrc2);
   }
+
+  function openImage3(){
+    var imageSrc3 = document.getElementById("quizeriffic_pic").src;
+    window.open(imageSrc3);
+  }
   
   
   
