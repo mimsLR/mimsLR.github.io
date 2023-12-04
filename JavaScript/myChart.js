@@ -3,7 +3,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {
   type: 'horizontalBar',
   data: {
-    labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'PostScript'],
+    labels: ['HTML', 'Bootstrap/CSS', 'Python', 'JavaScript', 'Java', 'C'],
     datasets: [{
       label: 'Skill Level',
       data: [90, 75, 65, 60, 50, 30],
