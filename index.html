@@ -26,6 +26,26 @@
     <script src="JavaScript/chart.js"></script>
     <!-- personal JavaScript -->
     <script src="JavaScript/script.js"></script>
+    <!-- waypoints CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+        $('.animate-on-scroll').waypoint(function () {
+            $(this.element).removeClass('invisible').addClass('animate__animated animate__fadeInLeft');
+        }, { offset: '75%' });
+      });
+
+      $(document).ready(function () {
+        $('.animate-on-scroll_2').waypoint(function () {
+            $(this.element).removeClass('invisible').addClass('animate__animated animate__fadeInRight');
+        }, { offset: '75%' });
+      });
+    </script>
+
+
     
 </head>
 
@@ -64,7 +84,7 @@
 
     <main id="main">
         <!-- Home page content -->
-        <div class="container container-sm homePageContent col" id="homePageContent">
+        <div class="container container-sm homePageContent col animate__animated animate__fadeInDown" id="homePageContent">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg col-sm">
                     <h1>Logan Mims - IT Specialist</h1>
@@ -104,7 +124,7 @@
         <!-- About page content -->
         <div class="container d-flex justify-content-center" id="aboutPageContent">
             <div class="row d-flex justify-content-center">
-                <div class="col-lg-5 col-md-12 col-sm-12 about_me_container" id="aboutPageContent2">
+                <div class="col-lg-5 col-md-12 col-sm-12 about_me_container animate__animated animate__fadeInRight" id="aboutPageContent2">
                     <h2 id="about_me">About me</h2>
                     <hr class="header_hr">
                     <div class="about_page_text_div">
@@ -117,7 +137,7 @@
                 <div class="col-lg-1 col-md-12 col-sm-12">
                     
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12 resume_container" id="resume_container">
+                <div class="col-lg-5 col-md-12 col-sm-12 resume_container animate__animated animate__fadeInRight" id="resume_container">
                     <h3 id="resume_header">Resume</h3>
                     <hr class="header_hr">
                     <div class="d-flex justify-content-center">
@@ -145,7 +165,7 @@
         <hr class="divider" id="skills"/>
 
         <!-- skills page content -->
-        <div class="container skills_container" id="skillsPageContent">
+        <div class="container skills_container animate-on-scroll invisible" id="skillsPageContent">
             <h4>Skills</h4>
             <hr class="header_hr">
            <div class="row skills_page_row">
@@ -207,6 +227,21 @@
         <!-- chart.js -->
         <script src="JavaScript/myChart.js"></script>
 
+        <!-- animation ivisible until scrolling -->
+        <!-- <script>
+            $(document).ready(function () {
+            $('.animate-on-scroll').waypoint(function () {
+                $(this.element).removeClass('invisible').addClass('animate__animated animate__fadeInLeft');
+            }, { offset: '75%' });
+          });
+
+          $(document).ready(function () {
+            $('.animate-on-scroll_2').waypoint(function () {
+                $(this.element).removeClass('invisible').addClass('animate__animated animate__fadeInRight');
+            }, { offset: '75%' });
+          });
+        </script> -->
+
         <!-- divider -->
         <hr class="divider" />
 
@@ -216,7 +251,7 @@
             <div class="row justify-content-around">
 
                 <!-- HTML Emails -->
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
+                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column animate-on-scroll_2 invisible">
                     <div class="portfolio_header_image_container"><img src="images/HTML_email_display.png" class="img-fluid portfolio_header_image" alt="Logan" id="HTML_email_pic"></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">HTML Emails</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">HTML emails developed for clients that need E-bill solutions.</p></div>
@@ -235,9 +270,9 @@
                     </div>
                 </div>
 
-                <!-- Website Admin -->
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
-                    <div class="portfolio_header_image_container"><img src="images/FI_website.png" class="img-fluid portfolio_header_image" alt="Logan" id=""></div>
+                <!-- FI Site -->
+                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column animate-on-scroll_2 invisible">
+                    <div class="portfolio_header_image_container"><img src="images/FI_website.png" class="img-fluid portfolio_header_image animate__bounce" alt="Logan" id=""></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">Financial Imaging Site</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">Website that I designed and developed in WordPress for Financial Imaging.</p></div>
                     <div class="mt-auto mb-2 row d-flex">
@@ -256,7 +291,7 @@
                 </div>
 
                 <!-- Tundra Trek -->
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
+                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column animate-on-scroll_2 invisible">
                     <div class="portfolio_header_image_container" target="_blank"><img src="images/tundra_trek_game.png" class="img-fluid portfolio_header_image" alt="Logan" id="Tundra_Trek_pic"></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">Tundra Trek</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">This game was made with a group in my Unreal Engine class. My primary focus was character animation, gun functionality, and AI.</p></div>
@@ -275,7 +310,8 @@
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column">
+                <!-- Quizeriffic! -->
+                <div class="col-sm-12 col-md-6 col-lg-4 portfolio_box mb-4 d-flex flex-column animate-on-scroll_2 invisible">
                     <div class="portfolio_header_image_container"><img src="images/Quizeriffic!.png" class="img-fluid portfolio_header_image" alt="Logan" id="quizeriffic_pic"></div>
                     <div class="portfolio_header_p_container"><p class="portfolio_header_p_tag">Quizeriffic!</p></div>
                     <div class="portfolio_p_tag_container"><p class="portfolio_p_tag">Web app that allows users to create a user and play a quiz game. The user can choose different difficulty levels and topics.</p></div>
@@ -333,7 +369,6 @@
         </div>
 
     </div>
-
     <!-- divider -->
     <hr class="hr hr-blurry"  id="contact"/>
     <p id="copyright">Developed by Logan Mims.</p>
