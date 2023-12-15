@@ -289,11 +289,13 @@ h5{
     margin-top: auto;
     background-color: #313338;
     color:#fff;
+    transition: transform 0.9s ease;
 
 }
 
-.portfolio_box:hover{
-
+.portfolio_box:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    transition: transform 0.9s ease; /* Add a smooth transition effect */
 }
 
 .portfolio_header_image_container{
